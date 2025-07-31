@@ -14,7 +14,7 @@
 
 // ============================
 
-.header{
+.home{
   position: relative;
   height: 500px;
   background-size: cover;
@@ -25,5 +25,17 @@
   .brand-name{
     font-size: 4.5rem;
     text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px white;
+
+    span{
+      color:rgb(255, 196, 3);
+      text-shadow: 0 0 5px rgb(255, 196, 3);
+    }
+  }
+
+  .header-info{
+    font-size: 2rem;
   }
 }
