@@ -9,10 +9,21 @@
   height: 100%;
   width: 100%;
   background-color: rgba(0,0,0, .5);
+  z-index: -1;
 }
 
 // ============================
 
 .header{
-  
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/GenoType/img/DNA_small.jpg');
+  z-index: 0;
+
+  .brand-name{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+  }
 }
