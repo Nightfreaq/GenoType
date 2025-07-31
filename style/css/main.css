@@ -14,4 +14,13 @@ body {
   height: 100vh;
   background-color: #333;
   font-family: "Roboto", sans-serif;
+}
+
+.bg-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=main.css.map */
