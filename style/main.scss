@@ -27,7 +27,7 @@
 
 .home {
 	position: relative;
-	height: 400px;
+	height: 500px;
 	background-size: cover;
 	background-position: center;
 	background-image: url("/GenoType/img/DNA_small.jpg");
@@ -78,5 +78,18 @@ nav {
   .logo, .navbar-nav .nav-link{
     color: white;
   }
-  
+
+  .navbar-toggler{
+    // padding: 0.5em 1em;
+    // font-size: 2rem;
+    color: white;
+    border: 1px solid white;
+
+    i{
+      padding: .2em;
+      font-size: 2.5rem;
+      // border: 1px solid white;
+    }
+  }
+
 }

@@ -39,7 +39,7 @@ body {
 
 .home {
   position: relative;
-  height: 400px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   background-image: url("/GenoType/img/DNA_small.jpg");
@@ -77,4 +77,12 @@ nav .logo i {
 }
 nav .logo, nav .navbar-nav .nav-link {
   color: white;
+}
+nav .navbar-toggler {
+  color: white;
+  border: 1px solid white;
+}
+nav .navbar-toggler i {
+  padding: 0.2em;
+  font-size: 2.5rem;
 }/*# sourceMappingURL=main.css.map */
