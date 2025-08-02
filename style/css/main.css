@@ -37,6 +37,11 @@ body {
   text-shadow: 0 0 5px rgb(255, 196, 3);
 }
 
+.section-title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
 .home {
   position: relative;
   height: 500px;
@@ -46,14 +51,14 @@ body {
   z-index: 0;
 }
 .home .brand-name {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .home .header-info {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .home .btn {
   padding: 0.5em 1em;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -78,7 +83,8 @@ nav .logo {
   font-size: 2.5rem;
 }
 nav .logo i {
-  margin-right: 0.3em;
+  margin: 0 0.3em;
+  color: rgb(93, 245, 33);
 }
 nav .logo, nav .navbar-nav .nav-link {
   color: white;
@@ -116,8 +122,8 @@ nav .navbar-toggler i {
     transform: translateY(-24px);
     animation-timing-function: ease-in;
   }
-  93% {
-    transform: translateY(-4px);
+  65% {
+    transform: translateY(-12px);
     animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87%, 100% {
