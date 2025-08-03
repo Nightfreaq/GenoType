@@ -8,6 +8,7 @@
 
 :root {
   font-size: 62.5%;
+  scroll-padding-top: 60.48px;
 }
 
 body {
@@ -31,6 +32,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
+}
+.logo i {
+  margin: 0 0.3em;
+  color: rgb(93, 245, 33);
 }
 .logo span {
   color: rgb(255, 196, 3);
@@ -62,7 +67,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-.home i {
+.home .fa-arrow-down {
   position: absolute;
   bottom: 15px;
   left: 50%;
@@ -79,17 +84,18 @@ nav {
   background: rgb(8, 146, 208);
   background: linear-gradient(159deg, rgb(8, 146, 208) 0%, rgb(75, 0, 130) 100%);
 }
-nav .logo {
+nav .logo,
+nav .logo:focus,
+nav .logo.visited,
+nav .navbar-nav .nav-link {
   font-size: 2.5rem;
-}
-nav .logo i {
-  margin: 0 0.3em;
-  color: rgb(93, 245, 33);
-}
-nav .logo, nav .navbar-nav .nav-link {
+  font-weight: bold;
   color: white;
+  letter-spacing: 2px;
 }
-nav .logo:hover, nav .navbar-nav .nav-link.active, nav .navbar-nav .nav-link:hover {
+nav .logo:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link:hover {
   color: rgb(255, 196, 3);
 }
 nav .navbar-toggler {

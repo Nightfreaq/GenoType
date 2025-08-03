@@ -17,15 +17,20 @@
 	font-weight: bold;
 	letter-spacing: 2px;
 
+	i {
+		margin: 0 0.3em;
+		color: rgb(93, 245, 33);
+	}
+
 	span {
 		color: rgb(255, 196, 3);
 		text-shadow: 0 0 5px rgb(255, 196, 3);
 	}
 }
 
-.section-title{
-  font-size: 3.5rem;
-  text-transform: uppercase;
+.section-title {
+	font-size: 3.5rem;
+	text-transform: uppercase;
 }
 
 // ============================
@@ -40,6 +45,8 @@
 
 	.brand-name {
 		font-size: 6rem;
+
+
 	}
 
 	.header-info {
@@ -50,10 +57,10 @@
 		padding: 0.5em 1em;
 		font-size: 2rem;
 		text-transform: uppercase;
-    font-weight: bold;
+		font-weight: bold;
 	}
 
-	i {
+	.fa-arrow-down {
 		position: absolute;
 		bottom: 15px;
 		left: 50%;
@@ -77,38 +84,34 @@ nav {
 		rgba(75, 0, 130, 1) 100%
 	);
 
-	.logo {
+
+
+	.logo,
+	.logo:focus,
+	.logo.visited,
+	.navbar-nav .nav-link {
 		font-size: 2.5rem;
-    
-    i{
-      margin: 0 0.3em;
-      color: rgb(93, 245, 33)
-    }
-   
+		font-weight: bold;
+		color: white;
+		letter-spacing: 2px;
 	}
-  .logo, .navbar-nav .nav-link {
-    color: white;
-  }
 
-  .logo:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover{
-    color:rgb(255, 196, 3);
-  }
+	.logo:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .nav-link:hover {
+		color: rgb(255, 196, 3);
+	}
 
-  .navbar-toggler{
-    color: white;
-    border: 1px solid white;
+	.navbar-toggler {
+		color: white;
+		border: 1px solid white;
 
-    i{
-      padding: .2em .4em;
-      font-size: 2.5rem;
-    }
-  }
-
+		i {
+			padding: 0.2em 0.4em;
+			font-size: 2.5rem;
+		}
+	}
 }
-
-
-
-
 
 // ========================
 
@@ -124,31 +127,29 @@ nav {
  * animation bounce-top
  * ----------------------------------------
  */
-@keyframes bounce-top 
-{
-   0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
-  }
+@keyframes bounce-top {
+	0% {
+		transform: translateY(-45px);
+		animation-timing-function: ease-in;
+		opacity: 1;
+	}
 
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
-  }
+	40% {
+		transform: translateY(-24px);
+		animation-timing-function: ease-in;
+	}
 
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
-  }
+	65% {
+		transform: translateY(-12px);
+		animation-timing-function: ease-in;
+	}
 
-  25%,
-  55%,
-  75%,
-  87%, 
-  100% {
-    transform: translateY(0px);
-    animation-timing-function: ease-out;
-  }
-
+	25%,
+	55%,
+	75%,
+	87%,
+	100% {
+		transform: translateY(0px);
+		animation-timing-function: ease-out;
+	}
 }
