@@ -71,6 +71,10 @@
 	}
 }
 
+.fa-arrow-down{
+  transition: rotate .3s;
+}
+
 .bounce-top {
 	animation: bounce-top 2.5s linear infinite both;
 }
@@ -142,6 +146,7 @@ nav {
   background-position: center;
   background-size: cover;
   height: 500px;
+  z-index: 0;
 }
 
 .carousel-img-one{
