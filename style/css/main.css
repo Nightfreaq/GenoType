@@ -45,6 +45,7 @@ body {
 .section-title {
   font-size: 3.5rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .home {
@@ -121,6 +122,25 @@ nav .navbar-toggler i {
 .aboutus .btn {
   padding: 0.5em 2em;
   font-size: 1.6rem;
+}
+
+.carousel-item {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.carousel-img-one {
+  background-image: url("/GenoType/img/carousel_1_1920.jpg");
+}
+
+.carousel-img-two {
+  background-image: url("/GenoType/img/carousel_2_1920.jpg");
+}
+
+.carousel-img-three {
+  background-image: url("/GenoType/img/carousel_3_1920.jpg");
 }
 
 /* ----------------------------------------------
