@@ -167,11 +167,14 @@ nav .navbar-toggler i {
 .prices .card .card-body i {
   margin: 1em 0;
   font-size: 4rem;
-  color: rgb(255, 196, 3);
+  color: blue;
 }
 .prices .card .card-body .btn {
   padding: 0.5em 2em;
   font-size: 2rem;
+}
+.prices .card-two {
+  scale: 1.1;
 }
 
 /* ----------------------------------------------

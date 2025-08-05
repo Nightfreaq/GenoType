@@ -188,7 +188,7 @@ nav {
       i{
         margin: 1em 0;
         font-size: 4rem;
-        color: rgb(255, 196, 3);
+        color: blue;
       }
 
       .btn{
@@ -196,6 +196,10 @@ nav {
         font-size: 2rem;
       }
     }
+  }
+
+  .card-two{
+    scale:1.1;
   }
 }
 
