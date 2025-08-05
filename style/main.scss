@@ -147,6 +147,15 @@ nav {
   background-size: cover;
   height: 500px;
   z-index: 0;
+
+  .carousel-title{
+    font-size: 3.5rem;
+    margin-bottom: .5em;
+  }
+
+  p{
+    font-size: 2rem;
+  }
 }
 
 .carousel-img-one{

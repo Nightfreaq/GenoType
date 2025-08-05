@@ -135,6 +135,13 @@ nav .navbar-toggler i {
   height: 500px;
   z-index: 0;
 }
+.carousel-item .carousel-title {
+  font-size: 3.5rem;
+  margin-bottom: 0.5em;
+}
+.carousel-item p {
+  font-size: 2rem;
+}
 
 .carousel-img-one {
   background-image: url("/GenoType/img/carousel_1_1920.jpg");
