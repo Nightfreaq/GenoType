@@ -125,9 +125,9 @@
     <section id="prices" class="prices py-5">
       <div class="container text-light">
         <h2 class="section-title">cennik</h2>
-        <div class="row py-5 text-center">
-          <div class="col-md-4 mb-3 p-0">
-            <div class="card card-one h-100 me-5 p-4">
+        <div class="row row-cols-1 py-5 text-center">
+          <div class="col-md-4 mb-3 p-0 mb-5 mb-md-0">
+            <div class="card card-one h-100 me-0 me-md-5 p-4">
               <div class="card-body d-flex flex-column justify-content-between align-items-center">
                 <h5 class="card-title">Diagnoza</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
@@ -138,8 +138,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3 p-0">
-            <div class="card card-two h-100 mx-5 p-4">
+          <div class="col-md-4 mb-3 p-0 mb-5 mb-md-0">
+            <div class="card card-two h-100 mx-0 mx-md-5 p-4">
               <div class="card-body d-flex flex-column justify-content-between align-items-center">
                 <h5 class="card-title">Diagnoza i Leczenie</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
@@ -150,8 +150,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3 p-0">
-            <div class="card card-three h-100 ms-5 p-4">
+          <div class="col-md-4 mb-3 p-0 mb-5 mb-md-0">
+            <div class="card card-three h-100 ms-0 ms-md-5 p-4">
               <div class="card-body d-flex flex-column justify-content-between align-items-center">
                 <h5 class="card-title">Konsultacja</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
@@ -170,15 +170,47 @@
       <div class="container py-5">
         <h2 class="section-title">kontakt</h2>
         <div class="row">
-          <div class="col-4 border">
-            <h3>adres</h3>
-            <p>ul Zamkowa 39</p>
-            <p>Bajkowo</p>
-            <p>00-000</p>
-            <p>999-000-000</p>
-            <p>mail@mail.com</p>
+          <div class="col-md-3 col-lg-4 mb-4 mb-md-0">
+            <div class="card border mx-0 mx-md- text-center h-100 p-4">
+              <h3>adres</h3>
+              <p>ul Zamkowa 39</p>
+              <p>Bajkowo</p>
+              <p>00-000</p>
+              <p>999-000-000</p>
+              <p>mail@mail.com</p>
+            </div>
           </div>
-          <div class="col-8 border"></div>
+          <div class="col-md-9 col-lg-8 border">
+            <div class="form">
+              <div class="row m-3">
+                <div class="col-sm-12 col-md-6">
+                  <label for="">Imię i Nazwisko</label>
+                  <input type="text" class="form-control" aria-label="Name">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <label for="">Adres mailowy</label>
+                  <input type="text" class="form-control" aria-label="Mail address">
+                </div>
+              </div>
+              <div class="row m-3">
+                <div class="col">
+                  <label for="">Wybierz temat</label>
+                  <select class="form-select" name="" id="">
+                    <option selected>Wybierz jeden z poniższych...</option>
+                    <option value="1">Diagnoza</option>
+                    <option value="2">Diagnoza i Leczenie</option>
+                    <option value="3">Konsultacja</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row m-3">
+                <div class="col">
+                  <label for="">Wpisz treść wiadomości</label>
+                  <textarea class="form-control" rows="10"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

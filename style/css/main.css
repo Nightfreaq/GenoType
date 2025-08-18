@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 200vh;
+  height: 250vh;
   background-color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
@@ -156,6 +156,7 @@ nav .navbar-toggler i {
 }
 
 .prices .card {
+  max-width: 400px;
   scale: 0.95;
 }
 .prices .card .card-body .card-title {
@@ -174,7 +175,7 @@ nav .navbar-toggler i {
   font-size: 2rem;
 }
 .prices .card-two {
-  scale: 1.1;
+  scale: 1.05;
 }
 
 /* ----------------------------------------------
