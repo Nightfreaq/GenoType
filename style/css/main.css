@@ -48,6 +48,11 @@ body {
   font-weight: bold;
 }
 
+hr {
+  height: 2px;
+  width: 100%;
+}
+
 .home {
   position: relative;
   height: 500px;
@@ -178,6 +183,14 @@ nav .navbar-toggler i {
   scale: 1.05;
 }
 
+.contact .card .card-title h4 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contact .card .card-body i {
+  padding: 0 0.5em;
+}
 .contact .contact-map {
   width: 100%;
   min-height: 650px;
