@@ -227,11 +227,19 @@ nav {
 			}
 		}
 	}
+	.form{
+		font-size: 1.8rem;
+
+		input, select, textarea{
+			font-size: 1.5rem;
+		}
+	}
 
 	.contact-map{
 		width: 100%;
 		min-height: 650px;
 	}
+
 }
 
 

@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 300vh;
+  height: 400vh;
   background-color: #333;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
@@ -190,6 +190,12 @@ nav .navbar-toggler i {
 }
 .contact .card .card-body i {
   padding: 0 0.5em;
+}
+.contact .form {
+  font-size: 1.8rem;
+}
+.contact .form input, .contact .form select, .contact .form textarea {
+  font-size: 1.5rem;
 }
 .contact .contact-map {
   width: 100%;
