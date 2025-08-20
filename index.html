@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/8853904747.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./style/css/main.css">
   <title>GenoType</title>
 </head>
@@ -19,18 +20,18 @@
   <header id="home" class="home">
     <div
       class="container header-text h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
-      <h1 class="brand-name logo mb-4"><i class="fa-solid fa-dna"></i><span>Geno</span>type<i
+      <h1 data-aos="fade-down" data-aos-duration="500" data-aos-delay="650" class="brand-name logo mb-4"><i class="fa-solid fa-dna"></i><span>Geno</span>type<i
           class="fa-solid fa-dna"></i></h1>
-      <p class="header-info mb-4">Profesjonalna diagnoza i nowoczesne metody leczenia</p>
-      <a href="#aboutus" class="btn btn-outline-light mt-3">Poznaj nas</a>
+      <p data-aos="fade-down" data-aos-duration="500" data-aos-delay="450" class="header-info mb-4">Profesjonalna diagnoza i nowoczesne metody leczenia</p>
+      <a data-aos="fade-down" data-aos-duration="500" data-aos-delay="250" href="#aboutus" class="btn btn-outline-light mt-3">Poznaj nas</a>
     </div>
     <div class="bg-shadow"></div>
-    <a href="#aboutus"><i class="fa-solid fa-arrow-down bounce-top"></i></a>
+    <a data-aos="fade-down" data-aos-duration="400" href="#aboutus"><i class="fa-solid fa-arrow-down bounce-top"></i></a>
   </header>
 
   <nav class="navbar navbar-expand-lg text-light text-uppercase sticky-top">
-    <div class="container">
-      <a class="navbar-brand logo d-lg-none" href="#"><i class="fa-solid fa-dna"></i><span>Geno</span>type<i
+    <div  class="container">
+      <a  class="navbar-brand logo d-lg-none" href="#"><i class="fa-solid fa-dna"></i><span>Geno</span>type<i
           class="fa-solid fa-dna"></i></a>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -52,14 +53,14 @@
       <div class="container py-5">
         <h2 class="section-title text-center text-lg-start">o firmie</h2>
         <div class="row m-0">
-          <img class="col-lg-4 p-0 aboutus-top-img mb-4" src="./img/aboutus_small.jpg" alt="">
+          <img data-aos="fade-right" data-aos-duration="1000" class="col-lg-4 p-0 aboutus-top-img mb-4" src="./img/aboutus_small.jpg" alt="">
           <div class="col-lg-8 px-5">
-            <p class="aboutus-info-top mt-sm-4 mt-lg-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350" class="aboutus-info-top mt-sm-4 mt-lg-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae natus dolorem necessitatibus porro incidunt. Tempore corporis ea, cumque quam reiciendis sed
               eos esse ipsum dolores earum natus placeat accusantium nemo sequi, laudantium illum nam quia animi in
               distinctio nisi maxime.</p>
             <div class="contact-box mt-5 py-lg-5">
-              <div class="row py-lg-3 d-flex justify-content-between align-items-center ">
+              <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700" class="row py-lg-3 d-flex justify-content-between align-items-center ">
                 <div class="col-lg-8 text-muted">
                   <p class="aboutus-info-bottom">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,
                     ex.</p>
@@ -245,6 +246,9 @@
       </div>
     </footer>
   </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./js/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
     crossorigin="anonymous"></script>

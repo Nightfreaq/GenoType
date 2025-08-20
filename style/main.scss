@@ -31,10 +31,10 @@
 .section-title {
 	font-size: 3.5rem;
 	text-transform: uppercase;
-  font-weight: bold;
+	font-weight: bold;
 }
 
-hr{
+hr {
 	height: 2px;
 	width: 100%;
 }
@@ -43,7 +43,7 @@ hr{
 
 .home {
 	position: relative;
-	height: 500px;
+	height: 800px;
 	background-size: cover;
 	background-position: center;
 	background-image: url("/GenoType/img/DNA_small.jpg");
@@ -51,8 +51,6 @@ hr{
 
 	.brand-name {
 		font-size: 6rem;
-
-
 	}
 
 	.header-info {
@@ -76,8 +74,8 @@ hr{
 	}
 }
 
-.fa-arrow-down{
-  transition: rotate .3s;
+.fa-arrow-down {
+	transition: rotate 0.3s;
 }
 
 .bounce-top {
@@ -93,8 +91,6 @@ nav {
 		rgba(8, 146, 208, 1) 0%,
 		rgba(75, 0, 130, 1) 100%
 	);
-
-
 
 	.logo,
 	.logo:focus,
@@ -125,136 +121,154 @@ nav {
 
 // ========================
 
-.aboutus{
+.aboutus {
+	.aboutus-top-img {
+		height: 300px;
+		object-fit: cover;
+	}
 
-  .aboutus-top-img{
-    height: 300px;
-    object-fit: cover;
-  }
+	.aboutus-info-top {
+		font-size: 1.8rem;
+	}
 
-  .aboutus-info-top{
-    font-size: 1.8rem;
-  }
+	.aboutus-info-bottom {
+		font-size: 1.6rem;
+	}
 
-  .aboutus-info-bottom{
-    font-size: 1.6rem;
-  }
-
-  .btn{
-    padding: 0.5em 2em;
-    font-size: 1.6rem;
-  }
+	.btn {
+		padding: 0.5em 2em;
+		font-size: 1.6rem;
+	}
 }
 
-.carousel-item{
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  z-index: 0;
+.carousel-item {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	z-index: 0;
 
-  .carousel-title{
-    font-size: 3.5rem;
-    margin-bottom: .5em;
-  }
+	.carousel-title {
+		font-size: 3.5rem;
+		margin-bottom: 0.5em;
+	}
 
-  p{
-    font-size: 2rem;
-  }
+	p {
+		font-size: 2rem;
+	}
 }
 
-.carousel-img-one{
-  background-image: url('/GenoType/img/carousel_1_1920.jpg');
+.carousel-img-one {
+	background-image: url("/GenoType/img/carousel_1_1920.jpg");
 }
-.carousel-img-two{
-  background-image: url('/GenoType/img/carousel_2_1920.jpg');
+.carousel-img-two {
+	background-image: url("/GenoType/img/carousel_2_1920.jpg");
 }
-.carousel-img-three{
-  background-image: url('/GenoType/img/carousel_3_1920.jpg');
+.carousel-img-three {
+	background-image: url("/GenoType/img/carousel_3_1920.jpg");
 }
 
 // ========================
 
-.prices{
-
-  .card{
+.prices {
+	.card {
 		max-width: 400px;
 		// min-width: 300px;
-    scale:0.95;
-		transition: scale .3s;
+		scale: 0.95;
+		transition: scale 0.3s;
 
-    .card-body{
+		.card-body {
+			.card-title {
+				margin-bottom: 1em;
+				font-size: 3rem;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
 
-      .card-title{
-        margin-bottom: 1em;
-        font-size: 3rem;
-        text-transform: uppercase;
-        font-weight: bold;
-      }
+			i {
+				margin: 1em 0;
+				font-size: 4rem;
+				color: blue;
+			}
 
-      i{
-        margin: 1em 0;
-        font-size: 4rem;
-        color: blue;
-      }
+			.btn {
+				padding: 0.5em 2em;
+				font-size: 2rem;
+			}
+		}
 
-      .btn{
-        padding: .5em 2em;
-        font-size: 2rem;
-      }
-    }
-  }
+		.btn {
+			position: relative;
+			overflow: hidden;
+		}
 
-	.card:hover{
+		.btn::before {
+			content: "";
+			display: block;
+			position: absolute;
+			height: 150%;
+			width: 50%;
+			top: -30%;
+			left: -100%;
+			background-image: linear-gradient(
+				-90deg,
+				rgba(255, 255, 255, 0.3),
+				rgba(255, 255, 255, 0)
+			);
+			rotate: 20deg;
+			transition: left .5s;
+		}
+
+		.btn:hover::before{
+			left: 130%;
+		}
+	}
+
+	.card:hover {
 		scale: 0.85;
 	}
 
-  .card-two{
-    scale:1.05;
-  }
+	.card-two {
+		scale: 1.05;
+	}
 
-	.card-two:hover{
-		scale:0.95;
+	.card-two:hover {
+		scale: 0.95;
 	}
 }
 
 // ==============================
 
-.contact{
-
-	.card{
-		.card-title{
-			h4{
+.contact {
+	.card {
+		.card-title {
+			h4 {
 				font-size: 2.5rem;
 				text-transform: uppercase;
 				font-weight: bold;
 			}
 		}
-		.card-body{
-			i{
+		.card-body {
+			i {
 				padding: 0 0.5em;
 			}
 		}
 	}
-	.form{
+	.form {
 		font-size: 1.8rem;
 
-		input, select, textarea{
+		input,
+		select,
+		textarea {
 			font-size: 1.5rem;
 		}
 	}
 
-	.contact-map{
+	.contact-map {
 		width: 100%;
 		min-height: 650px;
 	}
-
 }
-
-
-
-
-
 
 // ========================
 
