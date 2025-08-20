@@ -163,6 +163,7 @@ nav .navbar-toggler i {
 .prices .card {
   max-width: 400px;
   scale: 0.95;
+  transition: scale 0.3s;
 }
 .prices .card .card-body .card-title {
   margin-bottom: 1em;
@@ -179,8 +180,14 @@ nav .navbar-toggler i {
   padding: 0.5em 2em;
   font-size: 2rem;
 }
+.prices .card:hover {
+  scale: 0.85;
+}
 .prices .card-two {
   scale: 1.05;
+}
+.prices .card-two:hover {
+  scale: 0.95;
 }
 
 .contact .card .card-title h4 {
