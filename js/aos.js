@@ -1,5 +1,5 @@
 AOS.init({
-	// startEvent: "DOMContentLoaded",
+	startEvent: "DOMContentLoaded",
 	initClassName: "aos-init",
   once: true,
 });

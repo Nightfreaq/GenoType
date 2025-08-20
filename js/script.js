@@ -10,7 +10,7 @@ function rotate (){
 
 const arrow = document.querySelector('.fa-arrow-down')
 
-if(window.scrollY >= 300){
+if(window.scrollY >= 700){
   arrow.style.rotate = '180deg'
   arrow.classList.remove('bounce-top')
 } else {
